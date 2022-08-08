@@ -1,0 +1,1 @@
+import{g as c,c as a}from"./public-1ae1eec4.js";const r=async()=>await c(a.fragment.address,a.fragment.abi),e=async t=>await(await r()).balanceOf(t,2),s=async t=>await(await r()).balanceOf(t,1),g=async()=>await(await r()).setApprovalForAll(a.upgradeNft.address,!0),i=async t=>await(await r()).isApprovedForAll(t,a.upgradeNft.address);export{e as a,g as b,i as f,s as g};
