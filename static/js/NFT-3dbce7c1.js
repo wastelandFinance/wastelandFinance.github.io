@@ -1,0 +1,1 @@
+import{c as a,g as c}from"./public-d3b40f67.js";const r=async()=>await c(a.nft.address,a.nft.abi),i=async()=>await(await r()).setApprovalForAll(a.upgradeNft.address,!0),p=async t=>await(await r()).isApprovedForAll(t,a.upgradeNft.address),d=async(t,n,o)=>await(await r()).transferFrom(t,n,o);export{i as a,p as g,d as h};
